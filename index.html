@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de validação</title>
+    <link rel="stylesheet" href="./main.css" />
+</head>
+<body>
+    <div class="container">
+        <form id="formulario">
+            <h1>Digite numeros nos campos A e B, sendo o valor do campo B maior que o do campo A</h1>
+            <input id="campo-a" type="number" required placeholder="campo A">
+            <input id="campo-b" type="number" required placeholder="campo B">
+            <button type="submit">validar</button>
+        </form>
+        <p class="error-message"></p>
+        <p class="success-message"></p>
+    </div>
+    <p class="error-message"></p>
+    <p class="success-message"></p>
+    <script src="./main.js"></script>
+</body>
+</html>
